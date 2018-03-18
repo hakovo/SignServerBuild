@@ -21,7 +21,7 @@ jboss:
     JBOSSCONF: default
     JBOSS_IP: 0.0.0.0
   server:
-    ssl: true
+    ssl: false
   applications:
     signserver.ear:
       archive: /opt/signserver/lib/signserver.ear
